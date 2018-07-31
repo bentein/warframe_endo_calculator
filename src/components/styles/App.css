@@ -1,0 +1,24 @@
+table {
+    width: 100%;
+}
+
+.option-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    width: 300px;
+}
+
+.status-options, .region-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+}
